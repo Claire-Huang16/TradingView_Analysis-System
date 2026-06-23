@@ -646,7 +646,7 @@ def main():
 
         data_source = st.radio(
             "選擇資料來源",
-            ["🌐 美股 (FMP API)", "🇹🇼 台股 (FinMind)"],
+            ["🇹🇼 台股 (FinMind)", "🌐 美股 (FMP API)"],
             index=0
         )
         use_tw = "台股" in data_source
